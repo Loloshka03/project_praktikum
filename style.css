@@ -1,5 +1,10 @@
+body {
+    background: url('images/background.png');
+    background-size: auto;
+}
+
 .belka-logo {
-    width: 10em;
+    width: 13em;
 }
 
 nav {
@@ -27,4 +32,22 @@ nav {
     color: #ffffff;
     text-align: center;
     padding-top: 0.3em;
+}
+
+.input-page-logo {
+    max-width: 40em;
+}
+
+.input-form {
+    position: fixed;
+    background: url("images/card_background.png");
+    width: 40em;
+    height: 27.3em;
+    background-size: cover;
+    margin-top: 5em;
+    right: 5em;
+}
+
+.main-wrapper {
+    display: flex;
 }
