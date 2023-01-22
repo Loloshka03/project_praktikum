@@ -34,20 +34,60 @@ nav {
     padding-top: 0.3em;
 }
 
+.card-button {
+    width: 269px;
+    height: 117px;
+    background: rgba(5,56,107,1);
+    opacity: 1;
+    border: 1px solid rgba(130,217,255,1);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+    color: #ffffff;
+}
+
 .input-page-logo {
     max-width: 40em;
 }
 
 .input-form {
     position: fixed;
-    background: url("images/card_background.png");
-    width: 40em;
-    height: 27.3em;
-    background-size: cover;
-    margin-top: 5em;
+    width: 622px;
+    height: 424px;
+    background: linear-gradient(rgba(78,67,196,1), rgba(0,134,177,1));
+    opacity: 1;
     right: 5em;
+    border: 1px solid rgba(130,217,255,1);
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    overflow: hidden;
 }
 
 .main-wrapper {
     display: flex;
+}
+
+.input-text {
+    width: 573px;
+    height: 107px;
+    background: rgba(0,0,0,0.4399999976158142);
+    opacity: 1;
+    position: absolute;
+    border: 1px solid rgba(130,217,255,1);
+    border-top-left-radius: 121px;
+    border-top-right-radius: 121px;
+    border-bottom-left-radius: 121px;
+    border-bottom-right-radius: 121px;
+    overflow: hidden;
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.leaflet-control-attribution { /*Z*/
+    display: none;
 }
